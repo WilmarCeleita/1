@@ -82,7 +82,31 @@ body {
     filter: none;
 }
 
-@media (max-width: 1290px) { /* min = desde... */
+.foto-2
+{
+    filter: opacity(60%);
+
+}
+
+.foto-2:hover {
+    filter: none;
+    
+}
+
+.foto-3
+{
+    filter: opacity(60%);
+
+}
+
+.foto-3:hover {
+    filter: none;
+  
+}
+
+/* empiezan las transiciones */
+
+@media (min-width: 1250px) and (max-width: 1400px) { /* min = desde... */
     
     .foto-1
     {
@@ -90,7 +114,7 @@ body {
     }
     
     .foto-1:hover {
-        width: 620px;
+        width: 630px;
         height: auto;
         opacity: 1;
     }
@@ -119,30 +143,6 @@ body {
     
 }
 
-
-}
-
-
-.foto-2
-{
-    filter: opacity(60%);
-
-}
-
-.foto-2:hover {
-    filter: none;
-    
-}
-
-.foto-3
-{
-    filter: opacity(60%);
-
-}
-
-.foto-3:hover {
-    filter: none;
-  
 }
 
 
